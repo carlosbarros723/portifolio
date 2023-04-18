@@ -1,0 +1,31 @@
+.contaner__flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_cabecalho{
+    position: relative;
+}
+
+.menu__cabecalho__titulo img{
+    width: 250px;
+    padding: 25px 0 0 40px;
+}
+
+.menu__cabecalho__lsta{
+    list-style-type: none;
+    padding: 25px 40px 0 0;
+    width: 40%;
+   
+}
+
+.menu__butao{
+    display: none;
+}
+
+.menu__cabecalho__lsta a{
+    font-size: 20px;
+    color: #ffffff;
+}
