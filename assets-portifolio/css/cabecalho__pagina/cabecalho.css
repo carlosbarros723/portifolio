@@ -1,0 +1,59 @@
+.contaner__flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_cabecalho{
+    position: relative;
+}
+
+.menu__cabecalho__titulo img{
+    width: 250px;
+    padding: 25px 0 0 40px;
+}
+
+.menu__cabecalho__lsta{
+    list-style-type: none;
+    padding: 25px 40px 0 0;
+    width: 40%;
+   
+}
+
+.menu__butao{
+    display: none;
+}
+
+.menu__cabecalho__lsta a{
+
+    font-family: 'Epilogue', sans-serif;
+    text-shadow: 2px 4px 3px #312c2c;
+    font-size: 20px;
+    font-weight: 600;
+    color: #e4e2df;
+    position: relative;
+    padding-bottom: 5px;
+    
+}
+
+.menu__cabecalho__lsta a::after{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #d1e9e7e1;  
+    transition: 0.4s ease-in-out;
+
+}
+.menu__cabecalho__lsta a:hover::after{
+    width: 100%;
+    
+}
+
+
+
+

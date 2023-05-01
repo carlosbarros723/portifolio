@@ -1,0 +1,77 @@
+.secao__servicos{
+
+    margin: 100px 0;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+
+.secao__servicos__card{
+
+    width: 25%;
+    height: 350px;
+    position: relative;
+    transition: 0.1s ease-in-out;
+    
+}
+
+
+
+
+.secao__servicos__card > p{
+    position: absolute;
+    bottom: 3.5rem;
+    left: 2rem;
+}
+
+
+.secao__servicos__card > p > a{
+
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3a3838;
+ 
+}
+
+.secao__servicos__card--card1{
+    background-image: url("../../img/orderSummary.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.secao__servicos__card--card1:hover{
+    width: 27%;
+    height: 380px;
+    cursor: pointer;
+    
+    
+}
+.secao__servicos__card--card2:hover{
+    width: 27%;
+    height: 380px;
+    cursor: pointer;
+   
+}
+.secao__servicos__card--card3:hover{
+    width: 27%;
+    height: 380px;
+    cursor: pointer;
+
+}
+
+.secao__servicos__card--card2{
+    background-repeat: no-repeat;
+    background-image: url("../../img/orderSummary.png");
+    background-size: 100%;
+    position: relative;
+}
+
+.secao__servicos__card--card3{
+    background-repeat: no-repeat;
+    background-image: url("../../img/orderSummary.png");
+    background-size: 100%;
+    position:relative;
+}
