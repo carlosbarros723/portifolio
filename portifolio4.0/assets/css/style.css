@@ -1,0 +1,46 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* fim do reset */
+
+/*inport fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Inconsolata:wght@400;600;700;800&display=swap');
+
+:root{
+
+    --margin__superior__borda : 0.8rem;
+    --margin__inferior__borda : 0.8rem;
+    --margin__lateral__borda : 3.125rem;
+    --margin__superior__borda__responsivo : 1.2rem;
+    --margin__lateral__borda__responsivo : 2rem;
+    --font__mestre: 'Inconsolata', monospace;
+
+    --cor__links: #0085B5;
+    --cor__fundo: #183340;
+    --cor__fundo__menu: #162831e0 ;
+
+}
+
+body{
+    font-size: 16px;
+}
+.contaner__flex{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
